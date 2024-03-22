@@ -9,12 +9,27 @@ site_description:  >-
 repo_name: In-For-Disaster-Analytics/REDI-Documentation
 repo_url: https://github.com/In-For-Disaster-Analytics/REDI-Documentation
 
+# Configuration
 theme:
   name: material
   custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+  palette:
+    scheme: default
+
 
 extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/extra.js  
+
+# Page tree
+nav:
+  - Home: index.md
+  - Projects:
+    - Sites and Stories: sites.md
+    - Digital Twins: twins.md
