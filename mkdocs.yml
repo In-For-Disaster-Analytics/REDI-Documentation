@@ -34,4 +34,4 @@ nav:
     - Sites and Stories: sites.md
     - Digital Twins: twins.md
   - Protocols:
-    - Field Sessions: fort-davis.md
+    - Field Sessions: field-sessions/fort-davis.md
