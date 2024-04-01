@@ -1,12 +1,10 @@
 # REDI-Documentation
-Repository for .md documentation files to create a documentation site
+Repository for .md documentation files to create a documentation site. The information can be found at the [gh-pages website](https://in-for-disaster-analytics.github.io/REDI-Documentation/).
 
-Should include content for instructions/tutorials/blog posts/static content
-Narrative from field
-- Paul - Drone description
-- Greg - GeoSlam
-- Will - data processsing
-- Suzanne - IRB
-- Lissa - waypoints
-- Lydia - data collection logic
-- Brent - everything
+Updates to this website are pushed when the main branch gets updated.
+
+## Website Contents
+- Projects
+- Field Protocols
+  - Fort Davis   
+
