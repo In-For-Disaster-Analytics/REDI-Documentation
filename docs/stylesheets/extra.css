@@ -1,0 +1,13 @@
+[data-md-color-scheme="utexas"] {
+    --md-primary-fg-color:        #bf5700;
+    --md-primary-fg-color--light: #ffffff;
+    --md-primary-fg-color--dark:  #333f48;
+
+  }
+
+  [data-md-color-scheme="utexas-dark"] {
+    --md-primary-fg-color:        #bf5700;
+    --md-primary-fg-color--light: #ffffff;
+    --md-primary-fg-color--dark:  #333f48;
+
+  }

@@ -17,10 +17,12 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
+  font:
+    text: Open Sans
   palette:
-    scheme: default
-
-
+    scheme: utexas
+  
+    
 extra_css:
   - stylesheets/extra.css
 
