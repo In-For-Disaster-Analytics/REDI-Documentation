@@ -45,7 +45,5 @@ nav:
     - Sites and Stories: sites.md
     - Digital Twins: twins.md
   - Protocols:
-    - Field Sessions: 
     - Survey123: protocols/survey123_user.md
-  - Field Sessions:
-    - Fort Davis: field-sessions/fort-davis.md
+  - Field Sessions: field-sessions/fort-davis.md
