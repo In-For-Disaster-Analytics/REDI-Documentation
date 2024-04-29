@@ -22,7 +22,7 @@
     
     
       
-        <title>Survey123 admin - REDI</title>
+        <title>ArcGIS Survey123 Connect - REDI</title>
       
     
     
@@ -43,12 +43,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto"}</style>
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/output.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -62,16 +62,23 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="utexas" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#arcgis-survey123-connect" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -103,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Survey123 admin
+              ArcGIS Survey123 Connect
             
           </span>
         </div>
@@ -111,7 +118,33 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -518,6 +551,79 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#onboarding-credentialing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Onboarding / Credentialing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#launching-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launching Application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-new-survey" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating new survey
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modifying-xls-spreadsheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modifying XLS spreadsheet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publish
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-forms-online" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review Forms online
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -535,9 +641,106 @@
   
 
 
-  <h1>Survey123 admin</h1>
-
-
+<h1 id="arcgis-survey123-connect">ArcGIS Survey123 Connect<a class="headerlink" href="#arcgis-survey123-connect" title="Permanent link">&para;</a></h1>
+<h2 id="onboarding-credentialing">Onboarding / Credentialing<a class="headerlink" href="#onboarding-credentialing" title="Permanent link">&para;</a></h2>
+<ul>
+<li>User requests access from Administrator (currently Paul), providing email from User with Name, email, Project / PI</li>
+<li>Adminstrator adds user to group (existing or new as appropriate)</li>
+<li>Administrator creates temporary access credentials and emails the user the following information:<ul>
+<li>Username</li>
+<li>Tempoary Password</li>
+<li>Connection url</li>
+<li>Custom generated url for Trusted Conenction with ESRI cloud and local portal</li>
+</ul>
+</li>
+<li>Auto-emails for forgotten passords currently not working, so Administrator will manually reset.</li>
+</ul>
+<h2 id="launching-application">Launching Application<a class="headerlink" href="#launching-application" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>TAKE SCREENSHOTS WHEN DOING THIS FOR FIRST TIME</strong></li>
+<li>desktop app (download and install.  Get links from Paul)</li>
+<li>requires liscensing from server</li>
+<li>upper right hamburger = utilities</li>
+<li>settings --&gt; Add connection (<em>onboarding</em>)</li>
+<li>onboarding doc will provide url. if valid url, connection will work.</li>
+<li>select connection, click OK</li>
+<li>login (sites and stories server is very slow)</li>
+<li>Icont in top right infers which user / server you're in</li>
+</ul>
+<h2 id="creating-new-survey">Creating new survey<a class="headerlink" href="#creating-new-survey" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Click 'New Survey' button</li>
+<li>Give new survey a meaningful name</li>
+<li>Samples has a lot of precreated sample surveys that feature different features / functions.  Can use as tutorials and delete later</li>
+<li>Select and create survey</li>
+<li>Form (preview view), with options on left.<ul>
+<li>XLSForm opens spreadsheet that is driving the form</li>
+<li>Update syncs spreadsheet to preview (but doesn't save changes in excel!). (Save in excel also does this.)</li>
+<li>Files opens to local file system</li>
+<li>Tools (analyze survey, etc.)</li>
+<li>Publish, syncs to the portal and creates series of links to share</li>
+</ul>
+</li>
+<li>Details<ul>
+<li>Description field</li>
+</ul>
+</li>
+<li>Options<ul>
+<li>Set user permissions, etc.</li>
+</ul>
+</li>
+<li>Map<ul>
+<li>Set overview and zoom for overall map in survey (?does it do this for multiple?)</li>
+</ul>
+</li>
+<li>Media, basically project folder<ul>
+<li>CSVs for options</li>
+</ul>
+</li>
+<li>Linked Content<ul>
+<li>Have to be published at least once for feature to turn on</li>
+<li>ex. linked maps</li>
+</ul>
+</li>
+<li>Scripts<ul>
+<li>Custom javascript</li>
+</ul>
+</li>
+<li>Schema<ul>
+<li>Displays Layers/Tables, fields, field properties </li>
+</ul>
+</li>
+</ul>
+<h2 id="modifying-xls-spreadsheet">Modifying XLS spreadsheet<a class="headerlink" href="#modifying-xls-spreadsheet" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://doc.arcgis.com/en/survey123/desktop/create-surveys/xlsformessentials.htm">documentation</a></li>
+</ul>
+<h2 id="publish">Publish<a class="headerlink" href="#publish" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Use defaults</li>
+<li>Analyze survey.  will give info on issues in form (basically a debugger)</li>
+<li>Resolve issues and publish</li>
+<li>Check on cloud survey123: put cutom url into new browser window address bar <ul>
+<li>Repeat login with the same credentials</li>
+<li>if says 'timed out', click login again</li>
+</ul>
+</li>
+</ul>
+<h2 id="review-forms-online">Review Forms online<a class="headerlink" href="#review-forms-online" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Browser windows with tiles for forms, most recent in top left</li>
+<li>Opens into overview of submissions</li>
+<li>Collaborate<ul>
+<li>Survey share links under </li>
+<li>Controls for who can see, submit, etc.</li>
+<li>Options to create Shared Update Group for collaborative form development and administration </li>
+</ul>
+</li>
+</ul>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>forms ONLY live locally until published</li>
+</ul>
 
 
 

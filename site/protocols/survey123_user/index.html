@@ -47,12 +47,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto"}</style>
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/output.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -66,10 +66,12 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="utexas" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -120,7 +122,33 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -532,9 +560,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#onboarding-information-provided" class="md-nav__link">
+  <a href="#forgotten-password" class="md-nav__link">
     <span class="md-ellipsis">
-      Onboarding Information provided
+      Forgotten password
     </span>
   </a>
   
@@ -546,20 +574,53 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#launching-application" class="md-nav__link">
+  <a href="#accessing-surveys" class="md-nav__link">
     <span class="md-ellipsis">
-      Launching Application
+      Accessing Surveys
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#creating-new-survey" class="md-nav__link">
+  <a href="#survey123-connect-advanced-surveys" class="md-nav__link">
     <span class="md-ellipsis">
-      Creating new survey
+      Survey123 Connect: Advanced Surveys
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Survey123 Connect: Advanced Surveys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#launching-survey123-connect-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launching Survey123 Connect Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Template
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cd-re-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      cd Re Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -672,9 +733,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#onboarding-information-provided" class="md-nav__link">
+  <a href="#forgotten-password" class="md-nav__link">
     <span class="md-ellipsis">
-      Onboarding Information provided
+      Forgotten password
     </span>
   </a>
   
@@ -686,20 +747,53 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#launching-application" class="md-nav__link">
+  <a href="#accessing-surveys" class="md-nav__link">
     <span class="md-ellipsis">
-      Launching Application
+      Accessing Surveys
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#creating-new-survey" class="md-nav__link">
+  <a href="#survey123-connect-advanced-surveys" class="md-nav__link">
     <span class="md-ellipsis">
-      Creating new survey
+      Survey123 Connect: Advanced Surveys
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Survey123 Connect: Advanced Surveys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#launching-survey123-connect-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launching Survey123 Connect Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Template
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cd-re-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      cd Re Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -758,38 +852,40 @@
 
 
 <h1 id="arcgis-survey123-connect">ArcGIS Survey123 Connect<a class="headerlink" href="#arcgis-survey123-connect" title="Permanent link">&para;</a></h1>
+<p>Part of the REDI suite of services includes access to the ArcGIS portal and Survey123 data collection tools.  This page will walk you through the steps for getting set up to use Survey 123.</p>
 <h2 id="onboarding-credentialing">Onboarding / Credentialing<a class="headerlink" href="#onboarding-credentialing" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Get username and password from Administrator (Paul).  Requires name and email</li>
-<li>Paul puts them into group, either existing or new</li>
-<li>user receives email with temporary access creds</li>
-<li>Forgotten creds: email Paul, and he can reset the user password and sends password reset email</li>
-</ul>
-<h3 id="onboarding-information-provided">Onboarding Information provided<a class="headerlink" href="#onboarding-information-provided" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Username</li>
-<li>Tempoary Password</li>
-<li>Connection url</li>
-<li>Custom generated url for Trusted Conenction with ESRI cloud and local portal</li>
-</ul>
-<h2 id="launching-application">Launching Application<a class="headerlink" href="#launching-application" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>TAKE SCREENSHOTS WHEN DOING THIS FOR FIRST TIME</strong></li>
-<li>desktop app (download and install.  Get links from Paul)</li>
-<li>requires liscensing from server</li>
-<li>upper right hamburger = utilities</li>
-<li>settings --&gt; Add connection (<em>onboarding</em>)</li>
-<li>onboarding doc will provide url. if valid url, connection will work.</li>
-<li>select connection, click OK</li>
-<li>login (sites and stories server is very slow)</li>
-<li>Icont in top right infers which user / server you're in</li>
-</ul>
-<h2 id="creating-new-survey">Creating new survey<a class="headerlink" href="#creating-new-survey" title="Permanent link">&para;</a></h2>
+<p>RESI users need credentials in order to utilize the Survey123 tools. To obtain credentials, reach out to the system Administrator [Paul?].  In your email include your Name, email, and the project / PI associated with your request. You will receive an email back with the necessary onboarding information:
+- Username
+- Tempoary Password
+- Connection url
+- Custom generated url for Trusted Connection with ESRI cloud and local portal
+- link for downloading the Desktop application</p>
+<h3 id="forgotten-password">Forgotten password<a class="headerlink" href="#forgotten-password" title="Permanent link">&para;</a></h3>
+<p>The automatic password recoery tool is not currently functioning.  If you lose your access credentials / password, please contact the Administrator for a reset.</p>
+<h2 id="accessing-surveys">Accessing Surveys<a class="headerlink" href="#accessing-surveys" title="Permanent link">&para;</a></h2>
+<p>To access your organizations surveys, login to the portal url provided, and then navigate to the 'survey 123 app' accessed via the 9 dot grid next to your username in the upper right corner of the screen. </p>
+<p>The landing screen will show you all the surveys created by you and other members of your organization.  To create a new survey click the '+ New Survey' button.</p>
+<p>There are 3 options available for creating a new survey: The 'Blank Survey' and 'Template Survey' options use a web interface while the 'Survey 123 Connect' option requires the installation of a Desktop Application.  </p>
+<p>The web based survey editor provides a simple, intuitive user interface with drag and drop capabilities, however it is limited in some of its features and the ability for more complex operations like nested or conditional questions. Those functionalities are available vie the Survey123 Connect Desktop Application.</p>
+<p>To use the Web template simply click the 'Get started' button.</p>
+<h2 id="survey123-connect-advanced-surveys">Survey123 Connect: Advanced Surveys<a class="headerlink" href="#survey123-connect-advanced-surveys" title="Permanent link">&para;</a></h2>
+<h3 id="launching-survey123-connect-application">Launching Survey123 Connect Application<a class="headerlink" href="#launching-survey123-connect-application" title="Permanent link">&para;</a></h3>
+<p>Follow the following steps to launch, install and connect to your organization's portal.
+1. Download the 64-bit Desktop Application from the <a href="https://apps.microsoft.com/detail/9pmst5c0dlst?rtc=1&amp;hl=en-us&amp;gl=US">Microsoft Store</a> or the [ESRI site] (https://www.esri.com/en-us/arcgis/products/arcgis-survey123/downloads)
+2. Install tha application
+3. After launching, navigate to the options bar (3 horizontal lines) in the top right and select 'Settings' 
+4. Click the "+ Add connection" button and enter the ArcGIS connection URL provided in your onboarding email
+5. Wait while the utility establishes a connection to the server - this may take a few minutes.
+6. Sign in using the credentials for the portal you just connected to. </p>
+<h3 id="advanced-template">Advanced Template<a class="headerlink" href="#advanced-template" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Click 'New Survey' button</li>
 <li>Give new survey a meaningful name</li>
 <li>Samples has a lot of precreated sample surveys that feature different features / functions.  Can use as tutorials and delete later</li>
 <li>Select and create survey</li>
+</ul>
+<h3 id="cd-re-options">cd Re     Options<a class="headerlink" href="#cd-re-options" title="Permanent link">&para;</a></h3>
+<ul>
 <li>Form (preview view), with options on left.<ul>
 <li>XLSForm opens spreadsheet that is driving the form</li>
 <li>Update syncs spreadsheet to preview (but doesn't save changes in excel!). (Save in excel also does this.)</li>
