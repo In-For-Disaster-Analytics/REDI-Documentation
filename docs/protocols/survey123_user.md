@@ -41,7 +41,7 @@ Follow the following steps to launch, install and connect to your organization's
 - Samples has a lot of precreated sample surveys that feature different features / functions.  Can use as tutorials and delete later
 - Select and create survey
 
-### Options
+###cd Re     Options
 - Form (preview view), with options on left.
     - XLSForm opens spreadsheet that is driving the form
     - Update syncs spreadsheet to preview (but doesn't save changes in excel!). (Save in excel also does this.)
