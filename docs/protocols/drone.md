@@ -44,7 +44,6 @@ The exam fee is $175.00, the passing standard is 70 percent, and according to th
 ## FAA Part 107 Authorizations and Business/Private Flight Permissions
 The FAA mandates that pilots adhere to Part 107 authorizations, which encompass essential checks like airspace assessments, weather evaluations. These requirements are crucial components of safe and responsible drone operation for commercial purposes. By conducting airspace checks, pilots ensure they are aware of any restrictions or regulations governing the area where they intend to fly. Similarly, performing weather checks allows pilots to assess conditions that could affect flight safety, such as high winds, precipitation, or low visibility, and other risk evaluations.
 
-  
 
 ## Drone Registration
 Drone registration with the Federal Aviation Administration (FAA) is mandatory for all drones weighing between 0.55 pounds (250 grams) and 55 pounds (approximately 25 kilograms) that are operated outdoors in the United States for recreational or commercial purposes. This registration requirement is in place to help ensure accountability and safety in the national airspace system. Failure to register your drone can result in penalties and fines.
@@ -77,35 +76,35 @@ The Mavic 3M is a professional-grade drone designed for agricultural application
 Multispectral Camera 
 
 1. Image Sensor 
-       1. 1/2.8-inch CMOS, effective pixels: 5 MP 
+   1. 1/2.8-inch CMOS, effective pixels: 5 MP 
 2. Lens 
-       1. FOV: 73.91° (61.2° x 48.10°) 
-       2. Equivalent focal length: 25 mm 
-       3. Aperture: f/2.0 
-       4. Focus: Fixed Focus 
+   1.  FOV: 73.91° (61.2° x 48.10°) 
+   2.  Equivalent focal length: 25 mm 
+   3.  Aperture: f/2.0 
+   4.  Focus: Fixed Focus 
 3. Multispectral Camera Band 
-       1. Green (G): 560 ± 16 nm; 
-       2. Red (R): 650 ± 16 nm; 
-       3. Red Edge (RE): 730 ± 16 nm; 
-       4. Near infrared (NIR): 860 ± 26 nm; 
+   1. Green (G): 560 ± 16 nm; 
+   2. Red (R): 650 ± 16 nm; 
+   3. Red Edge (RE): 730 ± 16 nm; 
+   4. Near infrared (NIR): 860 ± 26 nm; 
 4. Gain Range 
-       1. 1x-32x 
+   1. 1x-32x 
 5. Shutter Speed 
-       1. Electronic Shutter: 1/30~1/12800 s 
+   1. Electronic Shutter: 1/30~1/12800 s 
 6. Max Image Size 
-       1. 2592×1944 
+   1. 2592×1944 
 7. Image Format 
-       1. TIFF 
+   1. TIFF 
 8. Video Format 
-       1. MP4 (MPEG-4 AVC/H.264) 
-9. Photo Shooting Mode 
-       1. Single shot: 5 MP 
-       2. Timelapse: 5 MP 
-       3. TIFF: 2/3/5/7/10/15/20/30/60 s 
+   1. MP4 (MPEG-4 AVC/H.264) 
+9.  Photo Shooting Mode 
+    1.  Single shot: 5 MP 
+    2.  Timelapse: 5 MP 
+    3.  TIFF: 2/3/5/7/10/15/20/30/60 s 
 10. Video Resolution 
-       1. H.264 
-       2. FHD: 1920 x 1080@30fps 
-       3. Video content: NDVI/GNDVI/NDRE 
+    1.  H.264  
+    2. FHD: 1920 x 1080@30fps 
+    3. Video content: NDVI/GNDVI/NDRE 
 11.  Max Video Bitrate 
 	1. Stream: 60 Mbps
 
@@ -135,7 +134,6 @@ Drone flight training is essential for aspiring pilots to develop the skills and
 During drone flight training, pilots learn and hone their skills in fundamental flight maneuvers, navigation techniques, and best practices for various scenarios. They also become familiar with the features and capabilities of their specific drone model. Training programs often cover topics such as weather effects on flight, airspace classification, and privacy considerations.
 
 ## Pre-Flight Checklist
-
 One crucial aspect emphasized in drone flight training and day-to-day operations, is the importance of a pre-flight checklist. A pre-flight checklist is a systematic process that ensures all necessary steps are taken before each flight, reducing the risk of errors or oversights that could compromise safety.
 
 DJI includes a pre-flight checklist in its user manual (pg 31). This is the general checklist for most DJI drones:
@@ -183,11 +181,13 @@ The Fort Davis Field Study from March 18-22, 2024, had many positive moments, mo
 #### RC Pro Controller User Interface / User Experience (UI/UX)
 **Next Button.** The preflight check screen can be viewed whether the drone is on or off. When the drone is off, this screen is fixed with no scrolling. This was the norm, as the controller was studied in this state a lot before ever flying it. However, when the drone is running, the controller begins receiving data and populates numerous empty cells in the UI. Additionally, a new button appears on the screen, but it appears below the static screen UI and a thin scroll bar appears on the right margin. There is a button labeled, “Next,” which is only seen if you know to scroll down. This is what was initially missed at the earlier FTX which brought the automated flight plan to a halt. A very rudimentary step, but easily missed on day-1 with little familiarization. See figure 1.
 
+![image](images/image%20(3).png)
 Figure 1. Screenshot of Preflight Check UI with drone off. No Next button.
 
 **Max Altitude.** The setting for Max Altitude in the Flight Controller Settings became an issue due to the higher elevation in West Texas (5,000 – 6,800 ft MSL) when compared with Austin, Texas (780 ft MSL). This setting had to be increased to 500 ft for the drone to take off when flying an automated flight route. At the time, this was not fully understood, because the working setting was still below ground level compared with mean sea level (MSL) elevation. Later it was realized that the drone has an altimeter (aviation barometer), and at takeoff the drone altimeter height is reset to zero feet above ground level (AGL), or height relative to the surface. So, the earlier, lower max height values allowed manual flight at the lower flight levels, and once the system needed to cross check settings against the flight plan, the higher flight levels in the plan (ex. 390 ft) created a dependency and forced the higher max height setting. See Figure 2.
 
 
+![image](images/Picture1.jpg)
 Figure 2. Flight Controller Settings. Max Altitude and Max Flight Distance
 
 **Geofencing**. We wanted to create a custom geofence that would keep the drone out of specific geographic areas, however after much reading it was discovered that the Mavic 3M does not have a custom geofence capability. DJI Mavic 3 drones are equipped with built-in geofencing technology to enhance airspace safety and compliance with aviation regulations. DJI drones, including the Mavic 3, have predefined geofencing zones that include areas around airports, heliports, and other sensitive locations where drone flights are restricted or regulated. This also includes pre-programmed features such as,
@@ -198,17 +198,14 @@ Figure 2. Flight Controller Settings. Max Altitude and Max Flight Distance
 
 To mitigate this limitation, the pilot must use the Max Flight Distance setting shown in Figure 2. The drone will fly x distance and then stop and hover, until the pilot turns it around and flies it back toward the programmed home station. Not ideal, but it was used in some testing and worked. DJI allows the pilot to create polygons that keep the drone inside an area, but we were trying to create a polygon that would keep the drone outside an area. So, a better mitigation plan may be to create a flight plan where the area of interest polygon is digitized so a flight plan is built around the area of interest, like a square with a hole in the middle. The structure or land parcel to avoid is within the hole, and the rest of the polygon area is the collection zone. This would need to be tested, as it may try to fly through the hole for efficiency of flight paths, but that would violate the purpose of the defined planning area. Also, it may not recognize a complex polygon’s geometry and fail to import the KML, or it may import the KML and ignore the hole.
 
-Another more nuanced method was devised to avoid areas when flying oblique imagery missions. In the first oblique flight it was discovered that the drone will fly five flight patterns. The first pattern collects NADIR-oriented orthophotos, then the remaining four passes collect oblique images, each at 90 degrees from the other. See figures 3 – 4.
+Another more nuanced method was devised to avoid areas when flying oblique imagery missions. In the first oblique flight it was discovered that the drone will fly five flight patterns. The first pattern collects NADIR-oriented orthophotos, then the remaining four passes collect oblique images, each at 90 degrees from the other. See figures 3.
 
-Figure 3. Orthophoto Pass #1. From flight plan on RC Pro Controller
-
-Figure 4. Oblique Passes #2 – 5. From flight plan on RC Pro Controller
+![Image](images/Screenshot%202024-04-25%20at%201.49.33 PM.png)
+Figure 3. Orthophoto Pass #1. From flight plan on RC Pro Controller (Left)Oblique Passes #2 – 5. From flight plan on RC Pro Controller(Right)
 
 Oblique photography needs to fly outside of the planning area by 40-50 percent of the length and width if you are flying a rectangular planning area. If a pilot is unaware of this behavior, the drone may fly into unauthorized areas adjacent to the collection area, so you must calculate for this in your collection planning. We called this area outside of the collection area “spillage.” On our second oblique flight, we estimated the spillage of the flight route, and the results were as expected. The drone dutifully stayed within the spillage zones, and within the main planning polygon area.
 
 **Disconnected Maps in the RC Pro Controller**. We had problems getting the RC Pro to recognize KMLs that we created in ArcGIS Pro. DJI allows users to create and load Keyhole Markup Language (KML) files and imagery into the Remote Controller (RC) Pro Controller for use in disconnected environments. Here is how this process works:
-
-  
 
 #### Create KMLs and Convert Imagery
 Creation of KML Files: Users can create KML files using various mapping and GIS software programs, such as Google Earth, QGIS, or Esri ArcGIS Pro. These KML files contain geographic data, including waypoints, routes, and polygons, that define flight paths or areas of interest for drone missions.
@@ -219,6 +216,7 @@ One workaround is to open the KML file as a JSON file in a text reader like Note
 
 #### Locate and Crop Imagery for Use as a Basemap
 One method we experimented with was using an online resource called [MyGeodata Converter](https://mygeodata.cloud/converter/map-to-mbtiles). The service converts GeoTIFF images into MBTiles, which is the format required by the RC Pro. This worked well and is a free service for conversions that are <5 MB. 
+
 **Loading KMLs and Imagery into RC Pro Controller:** Users can connect their device running GS Pro to the Remote Controller (RC) Pro Controller via a compatible cable or wireless connection. Once connected, they can access the KML files and imagery stored in GS Pro and load them into the RC Pro Controller for use during flight missions.
 
 **Mission Execution:** With the KML files and imagery loaded into the RC Pro Controller, users can execute pre-planned drone missions, follow predefined flight paths, and capture imagery or data as specified in the mission plan.
