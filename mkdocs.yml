@@ -14,8 +14,8 @@ theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.tabs
     - navigation.indexes
+    - navigation.tabs
     - navigation.path
     - navigation.instant
     - navigation.instant.prefetch
@@ -75,11 +75,12 @@ nav:
           - Dynamo Cookbooks:  redi-ecosystem/app-ecosystem/dynamo-cookbooks.md
       # - Infrastructure Resources      
   - Projects:
-    - NNA Alaska: projects/nna-alaska.md  
+    - NNA Alaska: projects/nna-alaska.md
     - Subsidence: projects/subsidence.md   
     - SETx KMP: projects/setx.md   
     - RGV AI Enabled Modeling: projects/rgv.md   
   - Protocols:
+    - protocols/index.md
     - Drone: protocols/drone.md  
     - Geoslam (Geoslam): protocols/geoslam.md  
     - Survey123: protocols/survey123_user.md
