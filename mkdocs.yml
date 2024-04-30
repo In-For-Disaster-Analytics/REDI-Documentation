@@ -55,6 +55,10 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+  - About:
+    - Philosophy: about/philosophy.md
+    - Concept Models: about/concept-models.md
+    - Meet the Team: about/team.md
   - Projects:
     - Sites and Stories: sites.md
     - Digital Twins: twins.md
