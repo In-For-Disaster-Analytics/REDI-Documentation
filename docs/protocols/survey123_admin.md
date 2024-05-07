@@ -23,7 +23,7 @@
 - login (sites and stories server is very slow)
 - Icont in top right infers which user / server you're in
 
-##Before you Go
+## Before you Go
 - Set up a collection in coreDB
 - 
 ## Creating new survey
