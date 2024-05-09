@@ -1,16 +1,17 @@
-# Dolce
+# Integrated Solutions
+## Dolce
 Write up here
 
-## Data Discovery Portal
-## Data Registry Services
+### Data Discovery Portal
+### Data Registry Services
 
-# Dyanmo
+## Dyanmo
 Write up here
 
-## Model Catalog
-## MEEP
+### Model Catalog
+### MEEP
 
-# Digital Twins
+## Digital Twins
 Write up here
 
-## MINT
+### MINT
