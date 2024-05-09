@@ -60,10 +60,7 @@ nav:
     - Concept Models: about/concept-models.md
     - Meet the Team: about/team.md
   - REDI Ecosystem:  
-      - Integrated Solutions:  
-          - Dynamo: redi-ecosystem/integrated-solutions/dynamo.md  
-          - Dolce: redi-ecosystem/integrated-solutions/dolce.md    
-          - Digital Twins: redi-ecosystem/integrated-solutions/digital-wins.md    
+      - Integrated Solutions:  redi-ecosystem/integrated-solutions.md 
       - Data Ecosystem:  
           - Dynamo Model Catalog: redi-ecosystem/data-ecosystem/dynamo-model-catalog.md
           - DataX portal: redi-ecosystem/data-ecosystem/datax.md

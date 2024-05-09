@@ -23,6 +23,9 @@
 - login (sites and stories server is very slow)
 - Icont in top right infers which user / server you're in
 
+## Before you Go
+- Set up a collection in coreDB
+- 
 ## Creating new survey
 - Click 'New Survey' button
 - Give new survey a meaningful name
