@@ -21,7 +21,7 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.top
-    - toc.follow
+    - toc.integrate
   font:
     text: Open Sans
     code: Roboto
@@ -81,3 +81,4 @@ nav:
     - Geoslam (Geoslam): protocols/geoslam.md  
     - Survey123: protocols/survey123_user.md
   - Field Sessions: field-sessions/fort-davis.md
+  - Site Outline: outline.md
