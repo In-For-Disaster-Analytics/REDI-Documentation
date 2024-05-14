@@ -31,7 +31,7 @@ The new topics listed above will be added to the existing topic list:
 - These changes will have a direct effect on airman knowledge testing for a Remote Pilot Certificate with a Small Aircraft Rating. Remote Pilot – Small Unmanned Aircraft Systems Airman Certification Standards ([FAA-S-ACS-10B](https://www.faa.gov/sites/faa.gov/files/training_testing/testing/acs/uas_acs.pdf)) 
 - [Federal Register Vol. 86, No. 10, Operation of Small Unmanned Aircraft Systems Over People](https://www.govinfo.gov/content/pkg/FR-2021-01-15/pdf/2020-28947.pdf) (Note: All new knowledge test questions were drafted from the rule only, beginning on page 68.) 
 - [Federal Register Vol. 86, No. 10, Remote Identification of Unmanned Aircraft](https://www.govinfo.gov/content/pkg/FR-2021-01-15/pdf/2020-28948.pdf) (Note: All new knowledge test questions were drafted from the rule only, beginning on page 116.) 
-- [AC 107-2A, Small Unmanned Aircraft System](www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf) (Small UAS)
+- [AC 107-2A, Small Unmanned Aircraft System](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2A.pdf) (Small UAS)
 - Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25B) [Chapter 17: Aeromedical Factors](https://www.faa.gov/aviation/phak/pilots-handbook-aeronautical-knowledge-faa-h-8083-25b) (Note: Applicable information found on pages 22 through 27 (pages 17-22 through 17-27 in full version of the handbook).) 
 - [Get your FAA Tracking Number (FTN)]( https://www.faa.gov/sites/faa.gov/files/training_testing/testing/acts/ftn_faqs.pdf ).You will need to have your FTN prior to scheduling and registering for any FAA Airman Knowledge Test scheduled on or after January 13, 2020.
 
