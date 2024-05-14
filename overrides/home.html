@@ -57,45 +57,64 @@
         display: none;
       }
     }
+
+    .parallax {
+        /* Create the parallax scrolling effect */
+        position:relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Full height */
+        min-height: 80rem;
+    }
+
+    .riverbend-image {
+        /* The image used */
+        background-image: url("images/home_landing.png");
+    }
+
+    .alaska-image {
+        /* The image used */
+        background-image: url("images/alaska-landscape.jpg");
+    }
+    
+    .rgv-image {
+        /* The image used */
+        background-image: url("images/SouthTexas.png");
+    }        
+
+    .intro {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        font-size:36px;
+        text-align: center;
+        color: #000;
+    }
+
   </style>
 
   <!-- Hero for landing page -->
   <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-
-        <!-- Hero image -->
-        <div class="mdx-hero__image">
-          <img
-            src="assets/images/home_landing.png"
-            alt=""
-            width="1659"
-            height="1200"
-            draggable="false"
-          >
+    <div class="parallax riverbend-image">
+        <div class="intro">
+            Put some kind of introduction here
         </div>
-
-        <!-- Hero content -->
-        <div class="mdx-hero__content">
-          <h1>Technical documentation that just works</h1>
-          <p>{{ config.site_description }}. Set up in 5 minutes.</p>
-          <a
-            href="{{ page.next_page.url | url }}"
-            title="{{ page.next_page.title | e }}"
-            class="md-button md-button--primary"
-          >
-            Quick start
-          </a>
-          <a
-            href="{{ 'insiders/' | url }}"
-            title="Material for MkDocs Insiders"
-            class="md-button"
-          >
-            Get Insiders
-          </a>
-        </div>
-      </div>
     </div>
+
+    <div style="height:500px;font-size:36px">
+        Something Something REDI SOLUTIONS
+    </div>
+     
+    <div class="parallax alaska-image"></div>
+
+    <div style="height:500px;font-size:36px">
+      I guess we need to say some more stuff?
+    </div>
+    
+    <div class="parallax rgv-image"></div>    
   </section>
 {% endblock %}
 
