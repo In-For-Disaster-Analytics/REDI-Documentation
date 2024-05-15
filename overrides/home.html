@@ -58,20 +58,19 @@
       }
     }
 
-    .parallax {
-        /* Create the parallax scrolling effect */
-        position:relative;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* Full height */
-        min-height: 80rem;
+    .md-container {
+      display: flex;
+      flex-wrap:wrap;
+      min-height: 80%;
     }
 
     .riverbend-image {
         /* The image used */
         background-image: url("images/home_landing.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 50em;
+        /* opacity: 50%; */
     }
 
     .alaska-image {
@@ -83,43 +82,113 @@
         /* The image used */
         background-image: url("images/SouthTexas.png");
     }        
-
-    .intro {
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        font-size:36px;
-        text-align: center;
-        color: #000;
+    
+    .main-intro {
+      position: relative;
+      left:0;
+      right:0;
+      margin-left: auto;
+      margin-right: auto;
+      top: 40%;
+      width: 50%;      
+      text-align: center;
+      color: #000;
+      background-color: grey;
+      border: 3px solid red;
     }
+
+    .sections-container{
+      position: absolute;
+      width:100%;
+      padding:50px;
+      border: 3px solid red;
+
+    }
+
+    .sections-container-inner{
+      position: relative;
+      left:0;
+      right:0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      width: 80%;      
+      text-align: center;
+      color: #000;
+      background-color: grey;
+      border: 3px solid blue;
+    } 
+
+    .flexbox-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      border: 3px solid blueviolet;
+      padding:50px;
+    }
+    
+
 
   </style>
 
   <!-- Hero for landing page -->
-  <section class="mdx-container">
-    <div class="parallax riverbend-image">
+  <section class="md-container" style="border: 3px solid greenyellow;">
+
+   <div class="riverbend-image"  style="border: 3px solid orangered;margin:50px;">
+    Where's the text?
+    <div class="main-intro">
+      <h1> REDI SOLUTIONS</h1>
+      <span >Put some kind of introduction here. Lorem ipsum and stuff like that.  blah blah blah.</span>
+      <p> And add some 'Read More' buttons?</p>
+    </div>
+  </div>
+
+    <!-- <div class="riverbend-image">
         <div class="intro">
             Put some kind of introduction here
         </div>
-    </div>
+    </div> -->
+  </section>
+  <section class="md-container" style="border: 3px solid green;"></section>>
 
-    <div style="height:500px;font-size:36px">
-        Something Something REDI SOLUTIONS
+    <div class="sections-container">
+      <div class="sections-container-inner">
+          <div class="sections-area flexbox-row"> 
+            <div class="area-text "> Name. Description. Button.</div>
+            <div class="area-photo "> Photo.</div>
+          </div>
+          <div class="sections-area flexbox-row"> 
+            <div class="area-photo"> Photo.</div>
+            <div class="area-text"> Name. Description. Button.</div>
+          </div>
+          <div class="sections-area flexbox-row"> 
+            <div class="area-text"> Name. Description. Button.</div>
+            <div class="area-photo"> Photo.</div>
+          </div>
+      </div>
     </div>
      
-    <div class="parallax alaska-image"></div>
-
-    <div style="height:500px;font-size:36px">
-      I guess we need to say some more stuff?
-    </div>
-    
-    <div class="parallax rgv-image"></div>    
   </section>
+
+
+{% endblock %}
+
+<!-- RGV -->
+{% block rgv %}
+  
+{% endblock %}
+
+<!-- Alaska -->
+{% block hero %}
 {% endblock %}
 
 <!-- Content -->
-{% block content %}{% endblock %}
+{% block content %}
+  {% include "partials/rgv.html" %}
+  {% include "partials/alaska.html" %}
+
+{% endblock %}
 
 <!-- Application footer -->
 {% block footer %}{% endblock %}

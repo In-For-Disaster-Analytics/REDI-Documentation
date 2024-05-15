@@ -59,17 +59,20 @@ nav:
     - Philosophy: about/philosophy.md
     - Concept Models: about/concept-models.md
     - Meet the Team: about/team.md
-  - REDI Ecosystem:  
-      - Integrated Solutions:  redi-ecosystem/integrated-solutions.md 
-      - Data Ecosystem:  
-          - Dynamo Model Catalog: redi-ecosystem/data-ecosystem/dynamo-model-catalog.md
-          - DataX portal: redi-ecosystem/data-ecosystem/datax.md
-          - Data:  
-              - Data Discovery: redi-ecosystem/data-ecosystem/data/data-discovery.md  
-              - Data Registration: redi-ecosystem/data-ecosystem/data/data-registration.md  
-      - App Ecosystem:  
-          - NNA Sites & Stories:  redi-ecosystem/app-ecosystem/sites-and-stories.md
-          - Dynamo Cookbooks:  redi-ecosystem/app-ecosystem/dynamo-cookbooks.md
+  - DOLCE: dolce/index.md   
+  - DYNAMO: dynamo/index.md   
+  - Digital Twins: digital-twins/index.md   
+  # - REDI Ecosystem:  
+  #     - Integrated Solutions:  redi-ecosystem/integrated-solutions.md 
+  #     - Data Ecosystem:  
+  #         - Dynamo Model Catalog: redi-ecosystem/data-ecosystem/dynamo-model-catalog.md
+  #         - DataX portal: redi-ecosystem/data-ecosystem/datax.md
+  #         - Data:  
+  #             - Data Discovery: redi-ecosystem/data-ecosystem/data/data-discovery.md  
+  #             - Data Registration: redi-ecosystem/data-ecosystem/data/data-registration.md  
+  #     - App Ecosystem:  
+  #         - NNA Sites & Stories:  redi-ecosystem/app-ecosystem/sites-and-stories.md
+  #         - Dynamo Cookbooks:  redi-ecosystem/app-ecosystem/dynamo-cookbooks.md
       # - Infrastructure Resources      
   - Projects:
     - NNA Alaska: projects/nna-alaska.md  
