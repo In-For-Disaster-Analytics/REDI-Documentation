@@ -50,10 +50,10 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js  
 
-plugins:
-  - privacy:
-      links_attr_map:
-        target: _blank
+# plugins:
+#   - privacy:
+#       links_attr_map:
+#         target: _blank
 
 markdown_extensions:
   - attr_list
@@ -65,7 +65,6 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
   - About:
     - about/index.md
     - Philosophy: about/philosophy.md
@@ -94,8 +93,12 @@ nav:
     - SETx KMP: projects/setx.md   
     - RGV AI Enabled Modeling: projects/rgv.md   
   - Protocols:
-    - Drone: protocols/drone.md  
-    - Geoslam (Geoslam): protocols/geoslam.md  
+    - protocols/index.md
+    # - Drone: protocols/drone.md  
+    # - Geoslam (Geoslam): protocols/geoslam.md  
     - Survey123: protocols/survey123_user.md
-  - Field Sessions: field-sessions/fort-davis.md
-  - Site Outline: outline.md
+  - Field Sessions: 
+    - field-sessions/index.md
+    - Fort Davis: 
+      - Drone:  field-sessions/fort-davis-march-23/drone.md
+      - LiDAR: field-sessions/fort-davis-march-23/lidar.md
