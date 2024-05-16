@@ -4,7 +4,7 @@
   
 
 ## Federal Aviation Administration (FAA) Preparations
-The FAA defines an Unmanned Aircraft System (UAS) as an unmanned aircraft and all associated support equipment, control station, data links, telemetry, communications, and navigation equipment necessary to operate the unmanned aircraft. In simpler terms, it refers to any aircraft operated without a human pilot on board, controlled remotely or autonomously. This includes drones, quadcopters, and other similar unmanned aircraft.
+The FAA defines an Unmanned Aircraft System (UAS) as an unmanned aircraft and all associated support equipment, control station, data links, telemetry, communications, and navigation equipment necessary to operate the unmanned aircraft. In simpler terms, it refers to any aircraft operated without a human pilot on board, controlled remotely or autonomously. This includes drones, quadcopters, and other similar unmanned aircraft.  
 
 Securing an FAA Remote Pilot Certificate is mandatory to operate your drone commercially within the United States under the Small UAS Rule (Part 107). This entails successfully passing a knowledge test, illustrating your comprehension of FAA regulations, airspace categorization, operational prerequisites, the weather's impact on drone flight, and other fundamental elements of safe drone operation. This certification stands as a vital measure to guarantee airspace safety and protect other aircraft, people, and property.
 

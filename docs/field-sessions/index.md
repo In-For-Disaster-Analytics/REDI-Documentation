@@ -1,4 +1,4 @@
-# Field Sessions
+# Field Session Write-ups
 
 ## West Texas: Fire Surveys
 - Fort Davis, March 2023
