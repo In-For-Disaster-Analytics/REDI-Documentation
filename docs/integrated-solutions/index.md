@@ -1,21 +1,21 @@
 ---
 title: Integrated Solutions
 ---
-## [DOLCE Data Management](dolce.md)
-Classification, Categorization & Ingest of Data and Metadata at scale
+## [DOLCE: Digital Object Life Cycle Ecosystem  Data Management](dolce.md)
+Classification, Categorization & Ingest of Digital Objects and Metadata at scale
 
-### Data Capture
+### Digital Object Capture
 - [Sites and Stories](https://sitestories.io/portal/home/index.html) for unstructured data
 - Spatial Surveying (link to something RE survey 123 stuff here)
 - UPstream Sensor Database (upstream-dso.tacc.utexas.edu) for structured data
 
-### Data Registration
+### Digital Object Registration
 - REDI Core DB - is the centralized storage and registry location for information resources. 
 - [REDI Metadata Portal Ingest and Register](https://ms2-dev.tacc.utexas.edu/metadata_app/) - This is the entry point for loading and registering data and data resources in the REDI solutions ecosystem.
 - [Interactive Data Ingest](https://ms2-dev.tacc.utexas.edu/survey-attachments)
 - Model Catalog Service 
 
-### Data Discovery
+### Digital Object Discovery
 - [REDI Data Discovery Services](http://ckan-kmp-setx.eastus.cloudapp.azure.com/)
 
 ## [DYNAMO](dynamo.md) - Dynamic Analyses and Modeling
