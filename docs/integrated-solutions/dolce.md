@@ -1,4 +1,3 @@
 # DOLCE
 
-### Data Discovery Portal
-### Data Registry Services
+This to be replaced with conent from Lydia
