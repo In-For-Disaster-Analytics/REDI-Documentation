@@ -97,7 +97,7 @@ nav:
     - Subsidence: projects/subsidence.md   
     - SETx KMP: projects/setx.md   
     - RGV AI Enabled Modeling: projects/rgv.md   
-  - Protocols:
+  - User Manuals:
     - protocols/index.md
     # - Drone: protocols/drone.md  
     # - Geoslam (Geoslam): protocols/geoslam.md  
