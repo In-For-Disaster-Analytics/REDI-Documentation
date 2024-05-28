@@ -32,9 +32,12 @@ Digital Twins are poised to revolutionize simulations. The REDI team is developi
 
 ### Digital Twin Ready Data
 - Terrain Tile Service. DEM coverages processed from best available LIDAR data.
+  
 [comment]: # ( - DEM Data. Instructions on how to access and governance for access rights)
+
 [comment]: # (- API. are there instructions for this availble?)
-[comment]: # (- Automated processing for campaigns. future)
+
+[comment]: # (- Automated processing for campaigns. future)  
 
 ### [IDA Spatial Visualization](https://sitestories.io/ecq/)
 
