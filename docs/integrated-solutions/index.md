@@ -9,11 +9,13 @@ Classification, Categorization & Ingest of Digital Objects and Metadata at scale
 - Spatial Surveying (link to something RE survey 123 stuff here)
 - UPstream Sensor Database (upstream-dso.tacc.utexas.edu) for structured data
 
-### Digital Object Registration
-- REDI Core DB - is the centralized storage and registry location for information resources. 
-- [REDI Metadata Portal Ingest and Register](https://ms2-dev.tacc.utexas.edu/metadata_app/) - This is the entry point for loading and registering data and data resources in the REDI solutions ecosystem.
+
+### Data Registration
+- [REDI Metadata Explorer Ingest and Register](https://ms2-dev.tacc.utexas.edu/metadata_app/) - This is the entry point for loading and registering data and data resources in the REDI solutions ecosystem.
+  - [REDI Core DB](https://ms2-dev.tacc.utexas.edu/redi-api/explorer/) - is the centralized storage and registry location for information resources.
+  - [Core DB Data Schema](https://ms2-dev.tacc.utexas.edu/db_schema/index.html)
 - [Interactive Data Ingest](https://ms2-dev.tacc.utexas.edu/survey-attachments)
-- Model Catalog Service 
+- [Model Catalog Service](https://tacc.mint.isi.edu/any/models/explore) 
 
 ### Digital Object Discovery
 - [REDI Data Discovery Services](http://ckan-kmp-setx.eastus.cloudapp.azure.com/)
