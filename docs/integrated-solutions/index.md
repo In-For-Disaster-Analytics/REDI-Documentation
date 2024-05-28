@@ -40,4 +40,4 @@ Digital Twins are poised to revolutionize simulations. The REDI team is developi
 
 ### [TBD NAME (Mint)](https://tacc.mint.isi.edu/) - DT Transformation and Composition Platform (Orchestration)
 
-### FUGRO Digital Twin VISUALIZATION Service
+[//]: # ### FUGRO Digital Twin VISUALIZATION Service
