@@ -30,11 +30,11 @@ Model Integration as a Service! Dynamo is a dynamic modelling modelling platform
 ## [Sociotechnical Digital Twins](digital-twins.md) 
 Digital Twins are poised to revolutionize simulations. The REDI team is developing tools that streamline the creation and orchestration of Digital Twins using physics-based information to support participatory processes
 
-### Digital Twin Ready Data: Terrain
-- DEM Data 
-- LIDAR Tile Service
-- API
-- Automated processing for campaigns
+### Digital Twin Ready Data
+- Terrain Tile Service. DEM coverages processed from best available LIDAR data.
+[comment]: # ( - DEM Data. Instructions on how to access and governance for access rights)
+[comment]: # (- API. are there instructions for this availble?)
+[comment]: # (- Automated processing for campaigns. future)
 
 ### [IDA Spatial Visualization](https://sitestories.io/ecq/)
 
