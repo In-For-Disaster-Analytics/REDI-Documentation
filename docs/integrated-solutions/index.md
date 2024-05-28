@@ -10,11 +10,10 @@ Classification, Categorization & Ingest of Digital Objects and Metadata at scale
 - UPstream Sensor Database (upstream-dso.tacc.utexas.edu) for structured data
 
 
-### Data Registration
+### Digital Object Registration
 - [REDI Metadata Explorer Ingest and Register](https://ms2-dev.tacc.utexas.edu/metadata_app/) - This is the entry point for loading and registering data and data resources in the REDI solutions ecosystem.
-  - [REDI Core DB](https://ms2-dev.tacc.utexas.edu/redi-api/explorer/) - is the centralized storage and registry location for information resources.
-  - [Core DB Data Schema](https://ms2-dev.tacc.utexas.edu/db_schema/index.html)
-- [Interactive Data Ingest](https://ms2-dev.tacc.utexas.edu/survey-attachments)
+- [Metadata and Data layer ingest - Complete metadata model](https://survey123.arcgis.com/share/04ec954ca2e5469b8026c28cb17afa48?portalUrl=https://sitestories.io/portal)
+  - [Embedded ingest for attachments 6G or less](https://ms2-dev.tacc.utexas.edu/survey-attachments)
 - [Model Catalog Service](https://tacc.mint.isi.edu/any/models/explore) 
 
 ### Digital Object Discovery
