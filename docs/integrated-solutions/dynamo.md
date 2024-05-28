@@ -1,5 +1,5 @@
 ---
-title: DYNAMO: DYnamic Analysis and MOdeling
+title: DYNAMO - DYnamic Analysis and MOdeling
 ---
 
 # DYNAMO: DYnamic Analysis and MOdeling
