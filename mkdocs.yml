@@ -100,7 +100,8 @@ nav:
   - Protocols:
     - protocols/index.md
     # - Drone: protocols/drone.md  
-    # - Geoslam (Geoslam): protocols/geoslam.md  
+    # - Geoslam (Geoslam): protocols/geoslam.md
+    - MINT: protocols/MINT/  
     - Survey123: protocols/survey123_user.md
   - Field Sessions: 
     - field-sessions/index.md
