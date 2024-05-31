@@ -1,3 +1,6 @@
+---
+title: MINT
+---
 ## Model Registration Steps
 
 ### Login
