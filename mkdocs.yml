@@ -64,9 +64,12 @@ markdown_extensions:
       permalink: true  
 
 plugins:
+    - mkdocs-jupyter:
+          ignore_h1_titles: True          
+          include_source: True
+          include_requirejs: true
     - search
     - awesome-pages      
-    - mkdocs-jupyter
 #   - privacy:
 #       links_attr_map:
 #         target: _blank
