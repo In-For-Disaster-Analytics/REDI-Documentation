@@ -181,13 +181,13 @@ The Fort Davis Field Study from March 18-22, 2024, had many positive moments, mo
 #### RC Pro Controller User Interface / User Experience (UI/UX)
 **Next Button.** The preflight check screen can be viewed whether the drone is on or off. When the drone is off, this screen is fixed with no scrolling. This was the norm, as the controller was studied in this state a lot before ever flying it. However, when the drone is running, the controller begins receiving data and populates numerous empty cells in the UI. Additionally, a new button appears on the screen, but it appears below the static screen UI and a thin scroll bar appears on the right margin. There is a button labeled, “Next,” which is only seen if you know to scroll down. This is what was initially missed at the earlier FTX which brought the automated flight plan to a halt. A very rudimentary step, but easily missed on day-1 with little familiarization. See figure 1.
 
-![image](images/image%20(3).png)
+![image](images/drone/image%20(3).png)
 Figure 1. Screenshot of Preflight Check UI with drone off. No Next button.
 
 **Max Altitude.** The setting for Max Altitude in the Flight Controller Settings became an issue due to the higher elevation in West Texas (5,000 – 6,800 ft MSL) when compared with Austin, Texas (780 ft MSL). This setting had to be increased to 500 ft for the drone to take off when flying an automated flight route. At the time, this was not fully understood, because the working setting was still below ground level compared with mean sea level (MSL) elevation. Later it was realized that the drone has an altimeter (aviation barometer), and at takeoff the drone altimeter height is reset to zero feet above ground level (AGL), or height relative to the surface. So, the earlier, lower max height values allowed manual flight at the lower flight levels, and once the system needed to cross check settings against the flight plan, the higher flight levels in the plan (ex. 390 ft) created a dependency and forced the higher max height setting. See Figure 2.
 
 
-![image](images/Picture1.jpg)
+![image](images/drone/Picture1.jpg)
 Figure 2. Flight Controller Settings. Max Altitude and Max Flight Distance
 
 **Geofencing**. We wanted to create a custom geofence that would keep the drone out of specific geographic areas, however after much reading it was discovered that the Mavic 3M does not have a custom geofence capability. DJI Mavic 3 drones are equipped with built-in geofencing technology to enhance airspace safety and compliance with aviation regulations. DJI drones, including the Mavic 3, have predefined geofencing zones that include areas around airports, heliports, and other sensitive locations where drone flights are restricted or regulated. This also includes pre-programmed features such as,
@@ -200,7 +200,7 @@ To mitigate this limitation, the pilot must use the Max Flight Distance setting 
 
 Another more nuanced method was devised to avoid areas when flying oblique imagery missions. In the first oblique flight it was discovered that the drone will fly five flight patterns. The first pattern collects NADIR-oriented orthophotos, then the remaining four passes collect oblique images, each at 90 degrees from the other. See figures 3.
 
-![image](images/Screenshot%202024-04-25%20at%201.49.33 PM.png)
+![image](images/drone/Screenshot%202024-04-25%20at%201.49.33 PM.png)
 Figure 3. Orthophoto Pass #1. From flight plan on RC Pro Controller (Left)Oblique Passes #2 – 5. From flight plan on RC Pro Controller(Right)
 
 Oblique photography needs to fly outside of the planning area by 40-50 percent of the length and width if you are flying a rectangular planning area. If a pilot is unaware of this behavior, the drone may fly into unauthorized areas adjacent to the collection area, so you must calculate for this in your collection planning. We called this area outside of the collection area “spillage.” On our second oblique flight, we estimated the spillage of the flight route, and the results were as expected. The drone dutifully stayed within the spillage zones, and within the main planning polygon area.
