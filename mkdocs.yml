@@ -50,11 +50,6 @@ extra_css:
 # extra_javascript:
 #   - javascripts/extra.js  
 
-# plugins:
-#   - privacy:
-#       links_attr_map:
-#         target: _blank
-
 markdown_extensions:
   - attr_list
   - pymdownx.critic
@@ -71,5 +66,9 @@ markdown_extensions:
 plugins:
     - search
     - awesome-pages      
+    - mkdocs-jupyter
+#   - privacy:
+#       links_attr_map:
+#         target: _blank
 
 # Page tree
