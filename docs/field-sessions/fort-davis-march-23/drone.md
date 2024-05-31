@@ -1,3 +1,7 @@
+---
+title: Drone Operations
+Author: Paul Buschow
+---
 # Unmanned Aerial Drone Operations
 ## *Fort Davis-McDonald Observatory Field Research Trip*
 
