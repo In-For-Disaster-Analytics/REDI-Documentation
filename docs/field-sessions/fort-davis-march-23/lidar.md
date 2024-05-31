@@ -17,7 +17,7 @@ emergency responders.
 The LiDAR equipment used for this exercise was the [<u>GeoSLAM ZEB Go
 Handheld Scanner</u>](https://geoslam.com/solutions/zeb-go/).
 
-![image](images/image1.png)
+![image](images/lidar/image1.png)
 
 The device consists primarily of a hand-held scanner and data logger
 which serves as temporary storage of the raw data files. Additional
