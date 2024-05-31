@@ -68,6 +68,10 @@ markdown_extensions:
   - toc:
       permalink: true  
 
+plugins:
+    - search
+    - awesome-pages      
+
 # Page tree
 nav:
   - About:
@@ -97,14 +101,17 @@ nav:
     - Subsidence: projects/subsidence.md   
     - SETx KMP: projects/setx.md   
     - RGV AI Enabled Modeling: projects/rgv.md   
-  - User Manuals:
+  - Protocols:
     - protocols/index.md
     # - Drone: protocols/drone.md  
     # - Geoslam (Geoslam): protocols/geoslam.md
     - MINT: protocols/mint.md 
     - Survey123: protocols/survey123_user.md
+    - Tutorials:  
+      - tutorials/     
   - Field Sessions: 
     - field-sessions/index.md
     - Fort Davis: 
       - Drone:  field-sessions/fort-davis-march-23/drone.md
       - LiDAR: field-sessions/fort-davis-march-23/lidar.md
+  
