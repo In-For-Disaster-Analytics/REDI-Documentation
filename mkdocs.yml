@@ -50,11 +50,6 @@ extra_css:
 # extra_javascript:
 #   - javascripts/extra.js  
 
-# plugins:
-#   - privacy:
-#       links_attr_map:
-#         target: _blank
-
 markdown_extensions:
   - attr_list
   - pymdownx.critic
@@ -68,43 +63,15 @@ markdown_extensions:
   - toc:
       permalink: true  
 
+plugins:
+    - mkdocs-jupyter:
+          ignore_h1_titles: True          
+          include_source: True
+          include_requirejs: true
+    - search
+    - awesome-pages      
+#   - privacy:
+#       links_attr_map:
+#         target: _blank
+
 # Page tree
-nav:
-  - About:
-    - about/index.md
-    - Philosophy: about/philosophy.md
-    - Concept Models: about/concept-models.md
-    - Meet the Team: about/team.md
-  - Integrated Solutions:  
-    - integrated-solutions/index.md
-    - DOLCE: integrated-solutions/dolce.md
-    - DynaMo: integrated-solutions/dynamo.md
-    - Digital Twins: integrated-solutions/digital-twins.md
-  # - REDI Ecosystem:  
-  #     - Integrated Solutions:  redi-ecosystem/integrated-solutions.md 
-  #     - Data Ecosystem:  
-  #         - Dynamo Model Catalog: redi-ecosystem/data-ecosystem/dynamo-model-catalog.md
-  #         - DataX portal: redi-ecosystem/data-ecosystem/datax.md
-  #         - Data:  
-  #             - Data Discovery: redi-ecosystem/data-ecosystem/data/data-discovery.md  
-  #             - Data Registration: redi-ecosystem/data-ecosystem/data/data-registration.md  
-  #     - App Ecosystem:  
-  #         - NNA Sites & Stories:  redi-ecosystem/app-ecosystem/sites-and-stories.md
-  #         - Dynamo Cookbooks:  redi-ecosystem/app-ecosystem/dynamo-cookbooks.md
-      # - Infrastructure Resources      
-  - Projects:
-    - NNA Alaska: projects/nna-alaska.md  
-    - Subsidence: projects/subsidence.md   
-    - SETx KMP: projects/setx.md   
-    - RGV AI Enabled Modeling: projects/rgv.md   
-  - User Manuals:
-    - protocols/index.md
-    # - Drone: protocols/drone.md  
-    # - Geoslam (Geoslam): protocols/geoslam.md
-    - MINT: protocols/mint.md 
-    - Survey123: protocols/survey123_user.md
-  - Field Sessions: 
-    - field-sessions/index.md
-    - Fort Davis: 
-      - Drone:  field-sessions/fort-davis-march-23/drone.md
-      - LiDAR: field-sessions/fort-davis-march-23/lidar.md
