@@ -9,6 +9,9 @@ site_description:  >-
 repo_name: In-For-Disaster-Analytics/REDI-Documentation
 repo_url: https://github.com/In-For-Disaster-Analytics/REDI-Documentation
 
+# Copyright
+copyright: Copyright &copy; 2024 UT Austin IDA team
+
 # Configuration
 theme:
   name: material
@@ -21,7 +24,7 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    # - navigation.footer
+    - navigation.footer
     - navigation.top
     - toc.follow
   font:
