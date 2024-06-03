@@ -1,3 +1,7 @@
+---
+title: Survey123 Connect
+---
+
 # ArcGIS Survey123 Connect
 
 Part of the REDI suite of services includes access to the ArcGIS portal and Survey123 data collection tools.  This page will walk you through the steps for getting set up to use Survey 123.
