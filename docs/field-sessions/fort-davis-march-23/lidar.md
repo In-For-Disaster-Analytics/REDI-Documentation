@@ -1,3 +1,7 @@
+---
+title: Handhelf LiDAR
+Author: Paul Buschow
+---
 # Summary of hand-held LiDAR Acquisition during Fort Davis Field Exercise.
 
 ## Field Operations
