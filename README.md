@@ -16,8 +16,9 @@ To run locally using miniconda:
 2. Start miniconda  
 3. Create a 'mkdocs' environment `conda create --name mkdocs`  
 4. Activate the mkdocs environment `conda activate mkdocs`  
-5. Navigate into the github repository on your computer  
-6. Run the command `mkdocs serve`  
-7. Open the local browser address shown
+5. Install mkdocs-material in your environment `conda install conda-forge::mkdocs-material`
+6. Navigate into the github repository on your computer  
+7. Run the command `mkdocs serve`  
+8. Open the local browser address shown
 
 To edit locally, use the IDE of your choice, VS Code is a good option.
