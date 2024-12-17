@@ -42,7 +42,7 @@ Within an organization, users can be assigned specific roles that determine thei
    - Can create, edit, publish, and manage datasets.
    - Can manage organization settings, including adding or removing members.
 
-### Joining or Creating an Organization
+### Joining
 
 - To join an existing organization, please write an issue on the [Data Discovery Support](https://github.com/In-For-Disaster-Analytics/ckan-docker/issues) page.
 
