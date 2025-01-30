@@ -1,9 +1,9 @@
 # Project Information
-site_name: REDI
+site_name: Decision Support Office
 site_url: https://in-for-disaster-analytics.github.io/REDI-Documentation/
-site_author: UT Austin REDI Team
+site_author: UT Austin DSO Team
 site_description:  >-
-  Documenation for REDI products
+  Website for TACC DSO Services
 
 # Repository
 repo_name: In-For-Disaster-Analytics/REDI-Documentation
@@ -12,26 +12,37 @@ repo_url: https://github.com/In-For-Disaster-Analytics/REDI-Documentation
 # Configuration
 theme:
   name: material
+  logo: assets/pt2050/planes.svg
   custom_dir: overrides
   features:
     - content.code.annotate 
     - content.code.copy
     - content.code.select
-    - navigation.tabs    
-    - navigation.tabs.sticky
+    - header.autohide
+    - navigation.expand
+    # - navigation.footer
     - navigation.indexes
-    - navigation.path
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.footer
+    - navigation.path
+    - navigation.tabs    
+    - navigation.tabs.sticky
     - navigation.top
     - toc.follow
+    # - toc.integrate
   font:
-    text: Open Sans
+    text: "'Benton Sans', 'Open Sans'" # "Benton Sans" available via tacc/core-styles.css
     code: Roboto
+  favicon: https://cdn.jsdelivr.net/gh/TACC/Core-CMS-Custom@813aa7c/ptdatax_assets/favicon.ico
 
   palette: 
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -44,17 +55,19 @@ theme:
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode    
+        name: Switch to light mode         
   
     
 extra_css:
+  - stylesheets/tacc.css
   - stylesheets/extra.css
    
 extra_javascript:
-  - javascripts/extra.js  
-  - javascripts/mathjax.js
+  # - javascripts/extra.js  
+  # - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 
 markdown_extensions:
   - admonition
@@ -97,10 +110,15 @@ plugins:
     #       ignore_h1_titles: True          
     #       include_source: True
     #       include_requirejs: true
-    - search
-    - awesome-pages      
-#   - privacy:
-#       links_attr_map:
-#         target: _blank
-
+  - awesome-pages:
+      # filename: .index
+      collapse_single_pages: true
+      strict: false
+      order: asc
+      sort_type: natural
+  - privacy:
+      assets: false
+      external_links_attr_map:
+        target: _blank
+  - search
 # Page tree
