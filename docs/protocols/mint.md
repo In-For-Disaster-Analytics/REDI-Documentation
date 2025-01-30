@@ -19,15 +19,27 @@ The above model was setup for **EDWARDS BFZ BARTON SPRINGS.** For the setup, we 
 
 ![A screenshot of a computer Description automatically generated](images/mint/image3.png)
 
-To add an external link/dataset, first, go to [https://[ptdatax]{.underline}.tacc.utexas.edu/](https://ptdatax.tacc.utexas.edu/) . Next, go to Data Files - \>\> My Projects - \>\> Add New Project. Then upload the required GAMs and create a public URL. This public url can be added to the input parameter in the model setup. An example of public URL can be seen below --
+### Access Distribution URL for GAML files
+Ingest Data into REDI services / Access Distribution URL for the GAM file:
+- CL method  --> gives URL back
+- In-line using metadata registration tool --> gives URL back
+- Method with survey attachments --> gives URL back
+- Programmatically with REDI ingest service --> give UID back. that can be used to  construct url from fragment + UID 
+
+
+
+To add an external link/dataset, first, go to [https://[ptdatax]{.underline}.tacc.utexas.edu/](https://ptdatax.tacc.utexas.edu/) . Next, go to Data Files - \>\> My Projects - \>\> Add New Project. Then upload the required GAMs and create a public URL. 
+
+This public url can be added to the input parameter in the model setup. An example of public URL can be seen below --
 
 ![A screenshot of a computer Description automatically generated](images/mint/image4.png)
 
 ![A screenshot of a computer Description automatically generated](images/mint/image5.png)
 
-### Creation of Public url using ptdatax
 
 Example of a new setup under modflow - [**https://tacc.mint.isi.edu/texas/models/configure/MODFLOW/modflow_2005/modflow_2005_cfg/75e7e090-de07-42f4-a652-8202a8b1bd2e**](https://tacc.mint.isi.edu/texas/models/configure/MODFLOW/modflow_2005/modflow_2005_cfg/75e7e090-de07-42f4-a652-8202a8b1bd2e)
+
+
 
 You can also go to "**see in catalog**" and visit the model catalog page -
 

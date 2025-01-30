@@ -6,6 +6,13 @@
 
 
 }
+[data-md-color-scheme="tacc"] {
+  --md-primary-fg-color:        #222222;
+  --md-primary-fg-color--light: #AFAFB3;
+  --md-primary-fg-color--dark:  #101015;
+
+}
+
 
 [data-md-color-scheme="argo"] {
   --md-primary-fg-color:        #171730;
